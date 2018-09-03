@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background-image: url(https://media.wired.com/photos/5a602bd0dcebae339730ba65/master/pass/eslcologne.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    height: 10em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 1000px;
+    width: 80%;
+    background-color: rgba(255,255,255,0.9);
+}
