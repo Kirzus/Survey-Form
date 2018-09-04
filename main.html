@@ -14,32 +14,36 @@
     </header>
     <main>
         <div class="container">
-            <p id="description">Let us know what you think about eSports</p>
-            <p>It will take you a few minutes only ! ;)</p>
-            <form id="survey-form">
-                <div>
+            <div>
+            <h2 id="description" class="lol">Let us know what you think about eSports</h2>
+            <h2>It will only take you a few minutes ;)</h2>
+            </div>
+            <form id="survey-form" class="form-container">
+                <div class="section">
                     <label><span>*</span>First name:</label>
                     <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required>
                 </div>
-                <div>
+                <div class="section">
                     <label id="name-label"><span>*</span>Last name:</label>
                     <input type="text" name="lastname" id="name" placeholder="Enter your last name" required>
                 </div>
-                <div>
+                <div class="section">
                     <label id="email-label"><span>*</span>Email:</label>
-                    <input type="email" name="email" id="email" required placeholder="me@host.com">
+                    <input type="email" name="email" id="email" required placeholder="Enter your email">
                 </div>
-                <div>
+                <div class="section">
                     <label id="number-label">Age:</label>
                     <input type="number" name="age" id="number" min="0" max="100" placeholder="Age">
                 </div>
-                <label>Gender:</label>
-                <select id="dropdown">
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Other</option>
-                </select>
-                <fieldset>
+                <div class="section">
+                    <label>Gender:</label>
+                    <select id="dropdown">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="section">
                     <legend>What competitive games do you play ?</legend>
                     <input type="checkbox" name="games" value="attribute">
                     <label>League of Legends</label><br>
@@ -64,8 +68,8 @@
                     <input type="checkbox" name="games" value="attribute">
                     <label>Other:</label>
                     <input type="text">
-                </fieldset>
-                <fieldset>
+                </div>
+                <div class="section">
                     <legend>How many hours of eSports do you watch a week ?</legend>
                     <div>
                         <input type="radio" id="hoursChoice1" name="hours" value="none" checked>
@@ -85,26 +89,26 @@
                         <input type="radio" id="hoursChoice5" name="hours" value="21">
                         <label for="hoursChoice5">21+ hours a week</label>
                     </div>
-                </fieldset>
-                <div>
+                </div>
+                <div class="section">
                     <label>What eSport game do you watch (or used to watch) ?</label>
                     <input type="text" >
                 </div>
-                <fieldset>
-                    <legend>Habe you ever been to an eSport event ?</legend>
+                <div class="section">
+                    <legend>Have you ever been to an eSport event ?</legend>
                     <label>Yes</label>
-                    <input type="radio"><br>
+                    <input type="radio" name="event"><br>
                     <label>No</label>
-                    <input type="radio">
-                </fieldset>
-                <h2>That was it ! Thanks for taking the time to answer this quick survey.</h2>
-                <p>One more thing before you go:</p>
-                <div>
-                    <label>Let us know what you think of eSports being part of the Olympics:</label>
-                    <textarea rows="5" cols="40"></textarea>
+                    <input type="radio" name="event">
                 </div>
-                <div>
-                    <input type="button" id="submit" value="Submit">
+                <h3>Thanks for taking the time to answer this quick survey.</h3>
+                <p>One more thing !</p>
+                <div class="comment">
+                    <label>Let us know what you think of eSports being part of the Olympics:</label><br>
+                    <textarea></textarea>
+                </div>
+                <div class="submit">
+                    <input type="button" id="submit" value="Submit" class="button">
                 </div>
             </form>
         </div>
