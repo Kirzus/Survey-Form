@@ -19,23 +19,23 @@
             <h2>It will only take you a few minutes ;)</h2>
             </div>
             <form id="survey-form" class="form-container">
-                <div class="section">
-                    <label><span>*</span>First name:</label>
+                <div class="section-full">
+                    <label><span>*</span> First name:</label>
                     <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required>
                 </div>
-                <div class="section">
-                    <label id="name-label"><span>*</span>Last name:</label>
+                <div class="section-full">
+                    <label id="name-label"><span>*</span> Last name:</label>
                     <input type="text" name="lastname" id="name" placeholder="Enter your last name" required>
                 </div>
-                <div class="section">
-                    <label id="email-label"><span>*</span>Email:</label>
+                <div class="section-full">
+                    <label id="email-label"><span>*</span> Email:</label>
                     <input type="email" name="email" id="email" required placeholder="Enter your email">
                 </div>
-                <div class="section">
+                <div class="section-full">
                     <label id="number-label">Age:</label>
                     <input type="number" name="age" id="number" min="0" max="100" placeholder="Age">
                 </div>
-                <div class="section">
+                <div class="section-full">
                     <label>Gender:</label>
                     <select id="dropdown">
                         <option>Male</option>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="section game-watch">
-                    <label>What eSport game do you watch (or used to watch) ?</label>
+                    <legend>What eSport game do you watch (or used to watch) ?</legend>
                     <input type="text">
                 </div>
                 <div class="section">
@@ -103,11 +103,11 @@
                 </div>
                 <h3>Thanks for taking the time to answer this quick survey.</h3>
                 <p>One more thing !</p>
-                <div class="comment">
-                    <label>Let us know what you think of eSports being part of the Olympics:</label><br>
+                <div class="section-full comment">
+                    <label>Let us know what you think of eSports being part of the Olympics:</label>
                     <textarea></textarea>
                 </div>
-                <div class="submit">
+                <div class="section-full submit">
                     <input type="submit" id="submit" value="Submit" class="button">
                 </div>
             </form>
