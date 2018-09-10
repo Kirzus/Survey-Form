@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">\
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <h1 id="title">eSports Survey</h1>
+        <h1 id="title">eSports Survey <i class="fas fa-trophy trophy"></i></h1>
     </header>
     <main>
         <div class="container">
             <div class="description-container">
-            <h2 id="description" class="lol">Let us know what you think about eSports</h2>
-            <h2>It will only take you a few minutes ;)</h2>
+                <h2 id="description" class="lol">What do you think about eSports ?</h2>
             </div>
             <form id="survey-form" class="form-container">
                 <div class="section-full">
@@ -44,7 +44,7 @@
                     </select>
                 </div>
                 <div class="section competitive">
-                    <legend>What competitive games do you play ?</legend>
+                    <legend><i class="fas fa-gamepad"></i> What competitive games do you play ?</legend>
                     <input type="checkbox" name="games" value="lol">
                     <label>League of Legends</label><br>
                     <input type="checkbox" name="games" value="dota">
@@ -70,7 +70,7 @@
                     <input type="text" name="games">
                 </div>
                 <div class="section">
-                    <legend><span>*</span> How many hours of eSports do you watch a week ?</legend>
+                    <legend><i class="fas fa-hourglass-half"></i> How many hours of eSports do you watch a week ? <span>*</span></legend>
                     <div>
                         <input type="radio" id="hoursChoice1" name="hours" value="none" required>
                         <label for="hoursChoice1">I don't watch eSports</label>
@@ -79,11 +79,11 @@
                         <input type="radio" id="hoursChoice2" name="hours" value="1-5">
                         <label for="hoursChoice2">1-5 hours a week</label>
                     </div>
-                        <input type="radio" id="hoursChoice3" name="hours" value="5-10">
-                        <label for="hoursChoice3">5-10 hours a week</label>
+                    <input type="radio" id="hoursChoice3" name="hours" value="5-10">
+                    <label for="hoursChoice3">5-10 hours a week</label>
                     <div>
                         <input type="radio" id="hoursChoice4" name="hours" value="10-20">
-                        <label for ="hoursChoice4">10-20 hours a week</label>
+                        <label for="hoursChoice4">10-20 hours a week</label>
                     </div>
                     <div>
                         <input type="radio" id="hoursChoice5" name="hours" value="21">
@@ -91,20 +91,20 @@
                     </div>
                 </div>
                 <div class="section game-watch">
-                    <legend>What eSport game do you watch (or used to watch) ?</legend>
+                    <legend><i class="far fa-eye"></i> What eSport game do you watch (or used to watch) ?</legend>
                     <input type="text">
                 </div>
                 <div class="section">
-                    <legend><span>*</span> Have you ever been to an eSport event ?</legend>
-                    <label>Yes</label>
-                    <input type="radio" name="event" required><br>
-                    <label>No</label>
+                    <legend><i class="far fa-calendar"></i> Have you ever been to an eSport event ? <span>*</span></legend>
+                    <input type="radio" name="event" required>
+                    <label>Yes</label><br>
                     <input type="radio" name="event">
+                    <label>No</label>
                 </div>
                 <h3>Thanks for taking the time to answer this quick survey.</h3>
-                <p>One more thing !</p>
+                <p>One more thing... <i class="far fa-grin-beam-sweat"></i></p>
                 <div class="section-full comment">
-                    <label>Let us know what you think of eSports being part of the Olympics:</label>
+                    <label>Let us know what you think of eSports being part of the Olympics <i class="far fa-comment"></i></label>
                     <textarea></textarea>
                 </div>
                 <div class="section-full submit">
