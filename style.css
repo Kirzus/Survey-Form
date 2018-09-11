@@ -15,7 +15,7 @@ h1 {
     margin: 0em 10px;
 }
 
-h2 {
+.description-container p {
     font-size: 25px;
 }
 
@@ -89,6 +89,8 @@ input[type=email],
 input[type=number] {
     width: 150px;
     font-family: 'Play', sans-serif;
+    margin-left: 10px;
+    height: 2em;
 }
 
 textarea:focus,
@@ -112,6 +114,11 @@ input[type=number]:focus {
     text-align: center;
 }
 
+.icon-comment {
+  font-size: 18px;
+  margin-left: 3px;
+}
+
 .submit {
     text-align: center;
 }
@@ -121,6 +128,8 @@ input[type=number]:focus {
     width: 150px;
     margin: 1em 0;
     font-family: 'Play', sans-serif;
+    border-radius: 10px;
+    background-color: white;
 }
 
 textarea {
@@ -153,7 +162,7 @@ textarea {
         font-size: 34px;
     }
 
-    h2 {
+    .description-container p {
         font-size: 20px;
     }
     
@@ -182,5 +191,6 @@ textarea {
     input[type=number] {
     width: 100%;
     font-family: 'Play', sans-serif;
+    margin: 5px 0px 0px 0px;
     }
 }

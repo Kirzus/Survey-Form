@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>FCC - Survey Form</title>
     <link rel="stylesheet" href="style.css">\
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
@@ -16,7 +16,7 @@
     <main>
         <div class="container">
             <div class="description-container">
-                <h2 id="description" class="lol">What do you think about eSports ?</h2>
+                <p id="description" class="lol">A take on eSports in...1 minute !</p>
             </div>
             <form id="survey-form" class="form-container">
                 <div class="section-full">
@@ -72,8 +72,9 @@
                 <div class="section">
                     <legend><i class="fas fa-hourglass-half"></i> How many hours of eSports do you watch a week ? <span>*</span></legend>
                     <div>
+                      <label for="hoursChoice1">
                         <input type="radio" id="hoursChoice1" name="hours" value="none" required>
-                        <label for="hoursChoice1">I don't watch eSports</label>
+                        I don't watch eSports</label>
                     </div>
                     <div>
                         <input type="radio" id="hoursChoice2" name="hours" value="1-5">
@@ -96,15 +97,13 @@
                 </div>
                 <div class="section">
                     <legend><i class="far fa-calendar"></i> Have you ever been to an eSport event ? <span>*</span></legend>
-                    <input type="radio" name="event" required>
-                    <label>Yes</label><br>
-                    <input type="radio" name="event">
-                    <label>No</label>
+                    <label><input type="radio" name="event" value="yes" required>Yes</label><br>
+                    <label><input type="radio" name="event" value="no">No</label>
                 </div>
                 <h3>Thanks for taking the time to answer this quick survey.</h3>
                 <p>One more thing... <i class="far fa-grin-beam-sweat"></i></p>
                 <div class="section-full comment">
-                    <label>Let us know what you think of eSports being part of the Olympics <i class="far fa-comment"></i></label>
+                    <label>Let us know what you think of eSports being part of the Olympics <i class="far fa-comment icon-comment"></i></label>
                     <textarea></textarea>
                 </div>
                 <div class="section-full submit">
