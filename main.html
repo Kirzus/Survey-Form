@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FCC - Survey Form</title>
     <link rel="stylesheet" href="style.css">\
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -19,29 +20,31 @@
                 <p id="description" class="lol">A take on eSports in...1 minute !</p>
             </div>
             <form id="survey-form" class="form-container">
-                <div class="section-full user-info">
-                    <label><span>*</span> First name:</label>
-                    <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required>
-                </div>
-                <div class="section-full user-info">
-                    <label id="name-label"><span>*</span> Last name:</label>
-                    <input type="text" name="lastname" id="name" placeholder="Enter your last name" required>
-                </div>
-                <div class="section-full user-info">
-                    <label id="email-label"><span>*</span> Email:</label>
-                    <input type="email" name="email" id="email" required placeholder="Enter your email">
-                </div>
-                <div class="section-full user-info">
-                    <label id="number-label">Age:</label>
-                    <input type="number" name="age" id="number" min="0" max="100" placeholder="Age">
-                </div>
-                <div class="section-full user-info">
-                    <label>Gender:</label>
-                    <select id="dropdown">
-                        <option>Male</option>
-                        <option>Female</option>
-                        <option>Other</option>
-                    </select>
+                <div class="user-info-container">
+                    <div class="user-info">
+                        <label><span>*</span> First name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="user-info">
+                        <label id="name-label"><span>*</span> Last name:</label>
+                        <input type="text" name="lastname" id="name" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="user-info">
+                        <label id="email-label"><span>*</span> Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="user-info">
+                        <label id="number-label">Age:</label>
+                        <input type="number" name="age" id="number" min="0" max="100" placeholder="Age">
+                    </div>
+                    <div class="user-info">
+                        <label>Gender:</label>
+                        <select id="dropdown">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="section competitive">
                     <legend><i class="fas fa-gamepad"></i> What competitive games do you play ?</legend>
@@ -72,9 +75,9 @@
                 <div class="section">
                     <legend><i class="fas fa-hourglass-half"></i> How many hours of eSports do you watch a week ? <span>*</span></legend>
                     <div>
-                      <label for="hoursChoice1">
-                        <input type="radio" id="hoursChoice1" name="hours" value="none" required>
-                        I don't watch eSports</label>
+                        <label for="hoursChoice1">
+                            <input type="radio" id="hoursChoice1" name="hours" value="none" required>
+                            I don't watch eSports</label>
                     </div>
                     <div>
                         <input type="radio" id="hoursChoice2" name="hours" value="1-5">
